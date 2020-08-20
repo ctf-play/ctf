@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+        <title>Honours</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin">
+        <div class="uk-container">
+            <div class="uk-navbar">
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li ><a href="index.html"  class="uk-button-text" >HOME</a></li>
+                        <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                        <li class="uk-active"><a href="#" id ="active" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                        <li><a href="about.html" class="uk-button-text">ABOUT US</a> </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right ">
+                    <div class="uk-navbar-item">
+                        <ul class="uk-grid-medium" uk-grid>
+                            <button class="uk-button uk-button-default uk-button-large uk-visible@m" style="background-color:  rgba(249, 180, 35, 1);">DONATE</button>
+                            <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-usage" uk-navbar-toggle-icon href="#"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <!--ofcanvas nav-->
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Navigation</h3>
+            <div class="uk-width-1-2@s uk-width-2-5@m">
+                <ul class="uk-nav uk-nav-default">
+                    <li><a href="index.html" class="uk-button-text" >HOME</a></li>
+                    <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                    <li class="uk-active"><a href="#" id ="active" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                    <li><a href="about.html" class="uk-button-text">ABOUT US</a></li>
+                </ul>
+                <button class="uk-button uk-button-default " style="background-color:  rgba(249, 180, 35, 1);color: black;margin-top: 5%;">DONATE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-default uk-section-large uk-padding" >
+        <div class="uk-container" style="margin-top: 2%;">
+            <div class="uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small">
+                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                            <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                <div>
+                                    <h2>“ No person was ever honored for what he received. Honor has been the reward for what he gave. ”<br><h4>- Calvin Coolidge</h4></h2><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="uk-divider-icon">
+    
+    <!--honours-->
+    <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+        <h1 class="uk-heading-medium uk-text-center">Awards & Honours</h1>
+        <div class="uk-container" style="margin-top: 2%;">
+            <div class="uk-child-width-1-2@m uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                <div class="uk-width-auto@m">
+                    <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
+                        <li class="uk-button-text"><a href="#"><h1>1991-1995</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>1996-2000</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>2001-2005</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>2006-2010</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>2011-2015</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>2016-2020</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>Significant One</h1></a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-expand@m">
+                    <ul id="component-tab-left" class="uk-switcher">
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>Article 31 Recognitions Award of Right of the child to play</h3>by International Toy Library Association (ITLA)  & International Association  For Child Right To Play (IPA)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>Limca Book of Records</h3>by Coca-Cola India</li>
+                                                <li><h3>2000 Award For Social initiative </h3>by Sri Ram Washes Ram Devi Bhatia Memorial Charitable </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>Best Community Service</h3>by Rotary Club Of Mumbai Ghatkopar</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>Mother India Award</h3>by Indian Organization For Commerce & Industry</li>
+                                                <li><h3> Big Mumbaikar Award</h3>by Big Fm 92.7</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>India Ngo Award</h3>by The Resources Alliance & The Rockefeller Foundation</li>
+                                                <li><h3>Humanitarian Work</h3>by St.George Hospital</li>
+                                                <li><h3>Mastering Unique Children Cause</h3>by Manav Jyot</li>
+                                                <li><h3>Champions Of Humanity</h3>by Cempaka School – Malaysia</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                            <ul class="uk-list uk-list-bullet">
+                                                <li><h3>Appreciation Award</h3>by The All India Toy Manufacturers Association</li>
+                                                <li><h3>Spirit of Humanity regional Awards</h3>by Americares India & Hans Foundation</li>
+                                                <li><h3>Most Committed NGO in early childhood care & Education </h3>by Early Childhood Education in India - Jaipur</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div>
+                                          <h1>
+                                            Biggest achievement is the lives of over lakhs children which we influence !!!
+                                          </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr class="uk-divider-icon">
+
+    <!--media recognition-->
+    <div class="uk-section uk-section-default uk-section-xlarge uk-padding" >
+        <h1 class="uk-heading-medium uk-text-center">Media Recognitions</h1>
+        <div class="uk-container" style="margin-top: 2%;">
+            <div class="uk-child-width-1-2@m uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                <div class="uk-width-auto@m uk-flex-last@m">
+                    <ul class="uk-tab-right" uk-tab="connect: #component-tab-right; animation: uk-animation-fade">
+                        <li class="uk-button-text"><a href="#"><h1>English</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>Hindi</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>Marathi</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>Gujarati</h1></a></li>
+                        <li class="uk-button-text"><a href="#"><h1>Others</h1></a></li>
+
+                    </ul>
+                </div>
+                <div class="uk-width-expand@m">
+                    <ul id="component-tab-right" class="uk-switcher">
+                        <li>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_1.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_2.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_3.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_4.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_5.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-remove">
+                                        <img data-src="assets/media/media_eng_6.jpg" width="1800" height="1200" alt="" uk-img>
+                                    </div>
+                                </div>
+                            </div>                
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                        <!--  -->
+                        <li>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <hr>
+                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-tile uk-tile-secondary uk-padding-large">
+                                        <p class="uk-h4">Large</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <hr class="uk-divider-icon">
+
+    <!-- Footer -->
+    <div class="uk-section uk-section-secondary">
+        <div class="uk-container">
+
+            <h1>Contact Us</h1>
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div class="uk-visible@m" style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large; text-decoration: underline">Children Toy Foundation</b><br><br>
+                        C/O Shri Devendra S. Desai – Founder/Mg.Trustee<br>
+                        C/O R.Desai & Co, Modern House, 11 Dr. V.B.Gandhi Road,Fort, Mumbai-400023.  Lane adjoining Rhythm House,Maharastra, India.<br>
+                        
+                        Tel : (091-22) 22820687<br>
+                        
+                        Fax : 091-22-22841247<br>
+                        
+                        Email : play@childrentoyfoundation.org</p>
+                </div>
+                <div style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large;">Quick Links</b></p>
+                    <ul class="uk-list uk-list-disc" style="margin-top:0px ;">
+                        <li>ACTIVITIES</li>
+                        <li>RECOGNITION</li>
+                        <li>BLOGS</li>
+                        <li>DONATE</li>
+                        <li>VOLUNTEER</li>
+                        <li>ABOUT US</li>
+                    </ul>
+                </div>
+                <div>
+                    <p style="color: white;"><b style="font-size:x-large;">CONNECT WITH US</b></p>
+                    <form>
+                        <fieldset class="uk-fieldset">                    
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Emai Id">
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="2" placeholder="Message"></textarea>
+                            </div>
+                            <div class="uk-margin">
+                                <button class="uk-button uk-button-default">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="uk-section uk-section-default uk-section-xsmall">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <p style="color: gray;">© 2020 Children Toy Foundation</p>
+                </div>
+                <div>
+                    <ul class="uk-grid-small uk-flex-right" uk-grid>
+                    <!-- App -->
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: google"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: linkedin"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: whatsapp"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: youtube"></a></li>
+
+
+                    </ul>    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

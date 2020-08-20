@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+        <title>Activities</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container">
+            <div class="uk-container">
+                <div class="uk-navbar">
+                    <div class="uk-navbar-left">
+                        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                    </div>
+                    <div class="uk-navbar-center uk-visible@m">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="index.html" class="uk-button-text" >HOME</a></li>
+                            <li class="uk-active"><a href="#" id ="active" class="uk-button-text">ACTIVITIES</a> </li>
+                            <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                            <li><a href="about.html" class="uk-button-text">ABOUT US</a> </li>
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right ">
+                        <div class="uk-navbar-item">
+                            <ul class="uk-grid-medium" uk-grid>
+                                <button class="uk-button uk-button-default uk-button-large uk-visible@m" style="background-color:  rgba(249, 180, 35, 1);">DONATE</button>
+                                <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-usage" uk-navbar-toggle-icon href="#"></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--ofcanvas nav-->
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Navigation</h3>
+            <div class="uk-width-1-2@s uk-width-2-5@m">
+                <ul class="uk-nav uk-nav-default">
+                    <li><a href="index.html" class="uk-button-text" >HOME</a></li>
+                    <li class="uk-active"><a href="#" id ="active" class="uk-button-text">ACTIVITIES</a> </li>
+                    <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                    <li><a href="about.html" class="uk-button-text">ABOUT US</a></li>
+                </ul>
+                <button class="uk-button uk-button-default " style="background-color:  rgba(249, 180, 35, 1);color: black;margin-top: 5%;">DONATE</button>
+            </div>
+        </div>
+    </div>
+    <hr class="uk-margin-remove-bottom">
+    <!--sub menu-->
+    <div>
+        <!--sub menu top-->
+        <ul class="uk-flex-center uk-padding-top" style="background-color: white;" uk-tab >
+            <li class="uk-active uk-button-text" ><a><h3>Events</h3></a></li>
+            <li class="uk-button-text"><a><h3>Toy Library</h3></a></li>
+            <li class="uk-button-text"><a><h3>Mobile Van</h3></a></li>
+        </ul>
+        <!--sub menu content-->
+        <ul class="uk-switcher uk-flex-center uk-margin uk-margin-remove-top">
+            <li>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-right;repeat: true;delay: 500" uk-grid style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./assets/activities/activity_1.JPG" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Event Name</h3>
+                            <p>
+                                We at Children Toy Foundation are working for the Right of the Child to Play since 1982. 
+                                In 28 municipal schools of Mumbai about 5-6 thousand Children benefit through our projects. 
+                                Besides 4 schools in Baroda and 20 village schools at the outskirts of Allahabad also benefit. 
+                                We entertain children in Hospitals also and at times we benefit construction sites children also. 
+                                For our concept of Olympics of Mind games we have won an international award also.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-left;repeat: true;delay: 500" uk-grid  style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="./assets/activities/activity_2.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Event Name</h3>
+                            <p>
+                                We are holding Interschool, Intercollege and Families On The Spot Mind Games Contest for the year 2016. 
+                                The contestants will be taught the games on the spot. 
+                                They have to exhibit on the spot grasping power and analyzing and planning capacity. 
+                                The games are like Chinese Checkers, Reversei, I drop, 5 in a row and many other memory games. 
+                                We are sure you will encourage us by participating so that slowly we can develop into a bigger event.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-right;repeat: true;delay: 500" uk-grid style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./assets/activities/activity_3.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Event Name</h3>
+                            <p>
+                                Children love nothing better than doing something on their own. 
+                                There is nothing more fulfilling than moving forwards at one’s own initiative an drive. 
+                                On the spot Games Contest is aimed at testing the skill, grasping power, instant judging and planning capacity of the young participants. 
+                                The Contest, a distinguishing feature of the CHILDREN TOY FOUNDATION, has caught the imagination of people, both children and adults alike.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-left;repeat: true;delay: 500" uk-grid  style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="./assets/activities/lib_1.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Play Centers</h3>
+                            <p>
+                                While setting up a toy / game library entails a fairly substantial investment, 
+                                play centres which let childred play, but not carry home a toy or game, 
+                                are immentsely suitable in the case of civic schools which suffer from chronic funds crunch. 
+                                So the FOUNDATION intends carrying out a campaign which would convince the Government to set up at least a play centre if not a library in every municipal school all over the country.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-right;repeat: true;delay: 500" uk-grid style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./assets/activities/lib_2.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">How to setup a Toy / Game Library?</h3>
+                            <p>
+                                Anybody can set up a library, provided the basic conviction is there. Following is the game plan for a modest library, to suit the Indian conditions :<br>
+                                Area: 200/250 sq.ft. If a hall and ground are attached it would be most ideal since that would facilitate holding of competitions and similar other events.<br>
+                                Investment:<br>
+                                Toys Rs. 20,000<br>
+                                Games Rs. 20,000<br>
+                                Furniture Rs. 10,000<br>
+                                Stationery & other accessories Rs. 5,000<br>
+                                Total Rs. 55,000
+                            </p>
+                        </div>
+                    </div>
+                </div>     
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-left;repeat: true;delay: 500" uk-grid  style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="./assets/activities/lib_3.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title"> How does the Foundation help ?</h3>
+                            <p>
+                                The Foundation helps those aspiring to set up a toy/ game library by guiding them from the moment of conception to the moment of delivery . 
+                                To begin with, it advises on what to buy and where to buy and why to buy. 
+                                It acts as a go between the manufacturer and buyer of toys / games, ensuring the best bargain value for money. 
+                                Then it provides the necessary training to a core group of volunteers on how to run the library in a professional fashion. 
+                                Wherever possible , it helps out in repairing and replacing damaged toys and raising funds from individual philanthropists, charitable trusts, social welfare organizations, etc, so that the library is on a sound footing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-right;repeat: true;delay: 500" uk-grid style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./assets/activities/bus_1.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Toy Van</h3>
+                            <p>
+                                Earlier in 1996-97 CTF used to arrange play sessions in evening for street children around its office at Fort. Everyday around 30-40 children from the surrounding used to play.
+                                Prompted by this overwhelming response and in its quest to reach out to more children at distant places, an idea of developing a mobile service just occurred and today it’s a big thing.
+                                The van was named as LAFF van (Let’s All have Fun & Frolic). 
+                                LAFF van has helped to propagate the toy library project in Northern states of India all the way up to Jammu and Kashmir. 
+                                M/s Godrej Industries and many ‘Lions’ Clubs had sponsored the trip. 
+                                The LAFF van had been in 162 villages of Latur District and an equal number off villages in Nashik district on sponsorship of Excel Industries Ltd.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-left;repeat: true;delay: 500" uk-grid  style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="./assets/activities/bus_2.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Content Title</h3>
+                            <p>
+                                The colorful vans easily lure the imagination of the children.
+                                On the body of the van there are many games painted and more than hundred children can play with magnetic counters in groups. 
+                                The Van has lots of toys and games both educational and entertaining. 
+                                The specially designed group game on the van is an open invitation for number of children to come together.
+                                The van has an in built video system for viewing educational video films and also for playing video games. Occasionally puppet and magic shows are performed to engage and entertain children. It has a projector for big screen viewing for more number of children and mike system for children to interact with each other with jokes,poems etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="uk-divider-icon">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding" uk-scrollspy="target: > div; cls: uk-animation-slide-right;repeat: true;delay: 500" uk-grid style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="./assets/activities/bus_3.jpeg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Content Title</h3>
+                            <p>
+                                The van has stacked around 300 toys and other games along and hobby kits of stamps, coins, cards etc. 
+                                This van is taken care by Excel Crop Care ltd at Banaras and serve schools for farmers children in 20 villages.
+                                This van has also gone to Bahraich to server sugar industry workers children courtest ECC Ltd & Parle group.
+                                Also it gave us access to many donors who were inspired to set up toy libraries at different places.
+                                Godrej Saralee Ltd is our new partner with whom we have made Good Times Bus and serve 12 more schools,hospitals & NGOs.
+                                With our new partner Larsen & Toubro Ltd we have made Nanha Munna Express and serve 6 municipal & 6 private schools.
+                                We run LAFF van in Mumbai donated by well wisher group & State bank Of India Com. Br. And supported by Vibha Inc. U.S.A.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>      
+        </ul>
+    </div>
+    <hr class="uk-divider-icon">
+    <!-- Footer -->
+    <div class="uk-section uk-section-secondary">
+        <div class="uk-container">
+
+            <h1>Contact Us</h1>
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div class="uk-visible@m" style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large; text-decoration: underline">Children Toy Foundation</b><br><br>
+                        C/O Shri Devendra S. Desai – Founder/Mg.Trustee<br>
+                        C/O R.Desai & Co, Modern House, 11 Dr. V.B.Gandhi Road,Fort, Mumbai-400023.  Lane adjoining Rhythm House,Maharastra, India.<br>
+                        
+                        Tel : (091-22) 22820687<br>
+                        
+                        Fax : 091-22-22841247<br>
+                        
+                        Email : play@childrentoyfoundation.org</p>
+                </div>
+                <div style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large;">Quick Links</b></p>
+                    <ul class="uk-list uk-list-disc" style="margin-top:0px ;">
+                        <li>ACTIVITIES</li>
+                        <li>RECOGNITION</li>
+                        <li>BLOGS</li>
+                        <li>DONATE</li>
+                        <li>VOLUNTEER</li>
+                        <li>ABOUT US</li>
+                    </ul>
+                </div>
+                <div>
+                    <p style="color: white;"><b style="font-size:x-large;">CONNECT WITH US</b></p>
+                    <form>
+                        <fieldset class="uk-fieldset">                    
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Emai Id">
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="2" placeholder="Message"></textarea>
+                            </div>
+                            <div class="uk-margin">
+                                <button class="uk-button uk-button-default">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="uk-section uk-section-default uk-section-xsmall">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <p style="color: gray;">© 2020 Children Toy Foundation</p>
+                </div>
+                <div>
+                    <ul class="uk-grid-small uk-flex-right" uk-grid>
+                    <!-- App -->
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: google"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: linkedin"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: whatsapp"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: youtube"></a></li>
+
+
+                    </ul>    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

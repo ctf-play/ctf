@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+     <!-- Navbar -->
+     <nav class="uk-navbar-container uk-margin">
+        <div class="uk-container">
+            <div class="uk-navbar">
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html" class="uk-button-text" >HOME</a></li>
+                        <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                        <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                        <li class="uk-active"><a href="#" id ="active"  class="uk-button-text">ABOUT US</a> </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right ">
+                    <div class="uk-navbar-item">
+                        <ul class="uk-grid-medium" uk-grid>
+                            <button class="uk-button uk-button-default uk-button-large uk-visible@m" style="background-color:  rgba(249, 180, 35, 1);">DONATE</button>
+                            <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-usage" uk-navbar-toggle-icon href="#"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--ofcanvas nav-->
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Navigation</h3>
+            <div class="uk-width-1-2@s uk-width-2-5@m">
+                <ul class="uk-nav uk-nav-default">
+                    <li><a href="index.html"  class="uk-button-text" >HOME</a></li>
+                    <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                    <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                    <li class="uk-active"><a href="#" id ="active" class="uk-button-text">ABOUT US</a></li>
+                </ul>
+                <button class="uk-button uk-button-default " style="background-color:  rgba(249, 180, 35, 1);color: black;margin-top: 5%;">DONATE</button>
+            </div>
+        </div>
+    </div>
+
+    <hr class="uk-divider-icon">
+    <!-- Footer -->
+    <div class="uk-section uk-section-secondary">
+        <div class="uk-container">
+
+            <h1>Contact Us</h1>
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div class="uk-visible@m" style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large; text-decoration: underline">Children Toy Foundation</b><br><br>
+                        C/O Shri Devendra S. Desai – Founder/Mg.Trustee<br>
+                        C/O R.Desai & Co, Modern House, 11 Dr. V.B.Gandhi Road,Fort, Mumbai-400023.  Lane adjoining Rhythm House,Maharastra, India.<br>
+                        
+                        Tel : (091-22) 22820687<br>
+                        
+                        Fax : 091-22-22841247<br>
+                        
+                        Email : play@childrentoyfoundation.org</p>
+                </div>
+                <div style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large;">Quick Links</b></p>
+                    <ul class="uk-list uk-list-disc" style="margin-top:0px ;">
+                        <li>ACTIVITIES</li>
+                        <li>RECOGNITION</li>
+                        <li>BLOGS</li>
+                        <li>DONATE</li>
+                        <li>VOLUNTEER</li>
+                        <li>ABOUT US</li>
+                    </ul>
+                </div>
+                <div>
+                    <p style="color: white;"><b style="font-size:x-large;">CONNECT WITH US</b></p>
+                    <form>
+                        <fieldset class="uk-fieldset">                    
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Emai Id">
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="2" placeholder="Message"></textarea>
+                            </div>
+                            <div class="uk-margin">
+                                <button class="uk-button uk-button-default">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Copuright -->
+    <div class="uk-section uk-section-default uk-section-xsmall">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <p style="color: gray;">© 2020 Children Toy Foundation</p>
+                </div>
+                <div>
+                    <ul class="uk-grid-small uk-flex-right" uk-grid>
+                    <!-- App -->
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: google"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: linkedin"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: whatsapp"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: youtube"></a></li>
+
+
+                    </ul>    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
