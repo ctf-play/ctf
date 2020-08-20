@@ -10,15 +10,16 @@
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
         <title>About Us</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./assets/style.css">
     </head>
 <body>
      <!-- Navbar -->
-     <nav class="uk-navbar-container uk-margin">
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container uk-margin">
         <div class="uk-container">
             <div class="uk-navbar">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                    <a class="uk-navbar-item uk-logo" href="index.html">Logo</a>
                 </div>
                 <div class="uk-navbar-center uk-visible@m">
                     <ul class="uk-navbar-nav">
@@ -38,8 +39,8 @@
                 </div>
             </div>
         </div>
-    </nav>
-
+        </nav>
+    </div>
     <!--ofcanvas nav-->
     <div id="offcanvas-usage" uk-offcanvas>
         <div class="uk-offcanvas-bar">
@@ -56,6 +57,161 @@
             </div>
         </div>
     </div>
+    <hr class="uk-margin-remove-bottom">
+    
+    <div class="uk-section uk-section-default uk-section-large uk-padding" >
+        <div class="uk-container" >
+            <div class="uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small">
+                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                            <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                <div>
+                                    <h2>“ If everyone is moving forward together, then success takes care of itself. ”<br><h4>- Henry Ford</h4></h2><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="uk-margin-remove-bottom">
+
+    <!--sub menu-->
+    <div>
+        <!--sub menu top-->
+        
+        <ul class="uk-flex-center uk-padding-top" uk-sticky="offset: 80" style="background-color: white;" uk-tab >
+            <li class="uk-active uk-button-text" ><a><h3>Advisory Board</h3></a></li>
+            <li class="uk-button-text"><a><h3>Corporate Partners</h3></a></li>
+            <li class="uk-button-text"><a><h3>Trustees</h3></a></li>
+        </ul>
+        <!--sub menu content-->
+        <ul class="uk-switcher uk-flex-center uk-margin uk-margin-remove-top">
+            <li>
+                <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-container">
+                        <h1 class="uk-heading-medium uk-text-center">Advisory Board</h1>
+                        <div class="uk-margin " uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500" style="align-items: center;" uk-grid >
+                            <div class="uk-child-width-1-2@m uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                                <div>
+                                    <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                            <ul class="uk-list uk-list-bullet" style="color:black;">
+                                                <li>Mr. Rameshbhai Desai- Businessman, Active supporter</li>
+                                                <li>Mrs.Rita Sonawat- Reader S.N.D.T. University</li>
+                                                <li>Dr. Rautela-Director Nehru Science Centre</li>
+                                                <li>Mr. Jayesh Chitalia- Journalist</li>
+                                                <li>Mr. Shyam Makhija- Leading toy manufacturer & dealer</li>
+                                                <li>Mrs. Neelaben Chapatwala- Director, Play School</li>
+                                                <li>Mr. Jugraj Jain-Leading toy manufacturer & dealer</li>
+                                                <li>Mr. Swastik Misra – Active supporter, Project proposals, Coordination</li>
+                                                <li>Dr. Kaushik Oza – Social worker & Active supporter</li>
+                                                <li>Mrs. Geeta More- Coordinator-Education Dept., Mumbai Municipal Corporation</li>
+                                                <li>Dr. Manilal Gada-Psychiatrist</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                            <ul class="uk-list uk-list-bullet" style="color:black;">
+                                                <li>Mr. Mahendra T. Mistry – Game & Programme development</li>
+                                                <li>Mr. Rashmibhai Shah – C.A.</li>
+                                                <li>Mr. Mahendra Vala-Interior designer</li>
+                                                <li>Mr. Bharatbhai Parikh-Exporter & Active supporter</li>
+                                                <li>Mr. Shreyansbhai Parikh – Businessman & Active supporter</li>
+                                                <li>Mr. Atul Tanna – Fund Raising Committee</li>
+                                                <li>Mrs.Avni Tanna – Fund Raising Committee</li>
+                                                <li>Mr. Arunbhai K. Mehta – Game & Programme development</li>
+                                                <li>Mr. Satish Vani-Games & Puzzles Developer</li>
+                                                <li>Dr. Kishore Kulkarni-Programme Developer, Science & Environment</li>
+                                                <li>Mr. Aswin Mehta-Businessman & Active supporter</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-container">
+                        <h1 class="uk-heading-medium uk-text-center">Corporate Partners</h1>
+                        <div class="uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default uk-card-small">
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                            <div>
+                                                <table class="uk-table uk-table-divider">
+                                                    <tbody style="color: black;font-weight: 800;font-size: larger;">
+                                                        <tr>                                                           
+                                                            <td>Excel Industries Ltd</td>
+                                                            <td>Excel Crop care Ltd</td>
+                                                            <td>Godrej Sara Lee Ltd</td>
+                                                            <td>Vitrag Foundation</td>
+                                                            <td>Vibha Inc.U.S.A</td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Larsen & Toubro Limited</td>
+                                                            <td>Bombay Community Public Trust</td>
+                                                            <td>R.Desai & Paper Marketing Private Ltd.</td>
+                                                            <td>Give India</td>
+                                                            <td>Ghanshyamdas Saraf Trust</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Olympia Games and Toys</td>
+                                                            <td>Pegasus International</td>
+                                                            <td>Wist Overseas</td>
+                                                            <td>The HSBC Limited</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+                    <div class="uk-container">
+                        <h1 class="uk-heading-medium uk-text-center">Trustees</h1>
+                        <div class="uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500" style="display:grid;place-items: center;">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default uk-card-large">
+                                    
+                                    <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                            <div>
+                                               <p style="color: black;font-size: x-large;">
+                                                Devendra S. Desai <sub>– Founder/Mg.Trustee</sub> <br><br>
+                                                Manilal D. Dund  <sub>– Trustee</sub><br><br>
+                                                Dr. Ravindra M. Sanghvi  <sub>– Trustee</sub><br><br>
+                                                Himmatbhai D. Dawawala <sub>– Trustee</sub> <br><br>
+                                                Priyesh R. Desai <sub>– Trustee</sub> <br><br>
+                                               </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>    
+        </ul>
+    </div>
+
+    
 
     <hr class="uk-divider-icon">
     <!-- Footer -->
@@ -79,12 +235,11 @@
                 <div style="border-right: 1px solid white;">
                     <p style="color: white;"><b style="font-size:x-large;">Quick Links</b></p>
                     <ul class="uk-list uk-list-disc" style="margin-top:0px ;">
-                        <li>ACTIVITIES</li>
-                        <li>RECOGNITION</li>
-                        <li>BLOGS</li>
+                        <li><a href="activities.html">ACTIVITIES</a></li>
+                        <li><a href="honours.html">RECOGNITION</a></li>
                         <li>DONATE</li>
                         <li>VOLUNTEER</li>
-                        <li>ABOUT US</li>
+                        <li><a href="about.html">ABOUT US</a></li>
                     </ul>
                 </div>
                 <div>

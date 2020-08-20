@@ -1,0 +1,15 @@
+* {
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+}
+.uk-navbar-center{
+    font-size: 60rem !important;
+}
+p{
+    color: black;
+}
+#active{
+    color:rgba(249, 180, 35, 1) !important;
+}
