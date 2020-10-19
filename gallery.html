@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Children Toy Foundation</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin">
+        <div class="uk-container">
+            <div class="uk-navbar">
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html" class="uk-button-text" >HOME</a> </li>
+                        <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                        <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                        <li><a href="about.html" class="uk-button-text">ABOUT US</a> </li>
+                        <li><a href="vision.html" class="uk-button-text">VISION</a> </li>
+                        <li class="uk-active"><a href="gallery.html" id ="active"  class="uk-button-text">GALLERY</a> </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right ">
+                    <div class="uk-navbar-item">
+                        <ul class="uk-grid-medium" uk-grid>
+                            <button class="uk-button uk-button-default uk-button-large uk-visible@m" style="background-color:  rgba(249, 180, 35, 1);">DONATE</button>
+                            <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-usage" uk-navbar-toggle-icon href="#"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <!--ofcanvas nav-->
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Navigation</h3>
+            <div class="uk-width-1-2@s uk-width-2-5@m">
+                <ul class="uk-nav uk-nav-default">
+                    <li><a href="index.html" class="uk-button-text" >HOME</a> </li>
+                    <li><a href="activities.html" class="uk-button-text">ACTIVITIES</a> </li>
+                    <li><a href="honours.html" class="uk-button-text">HONOURS & RECOGNITION</a> </li>
+                    <li><a href="about.html" class="uk-button-text">ABOUT US</a> </li>
+                    <li><a href="vision.html" class="uk-button-text">VISION</a> </li>
+                    <li class="uk-active"><a href="gallery.html" id ="active"  class="uk-button-text">GALLERY</a> </li>
+                </ul>
+                <button class="uk-button uk-button-default " style="background-color:  rgba(249, 180, 35, 1);color: black;margin-top: 5%;">DONATE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- caption -->
+    <div class="uk-section uk-section-default uk-section-large uk-padding" >
+        <div class="uk-container">
+            <div class="uk-grid-large uk-grid-match" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade;repeat: true;delay: 500">
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-default uk-card-small">
+                        <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                            <div class="uk-card-body" style="background-image: linear-gradient(to bottom right,rgb(253, 253, 253),rgba(223, 223, 223, 0.712));">
+                                <div>
+                                    <h2>“ In photography there is a reality so subtle that it becomes more real than reality. ”<br><h4>- Alfred Stieglitz</h4></h2><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="uk-divider-icon">
+    <!--events-->
+    <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+        <h2 class="uk-text-center">Events</h2>
+        <div class="uk-container" style="margin-top: 2%;">
+            <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_1.jpg" >
+                        <img src="assets/gallery/events/media_1.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_2.jpeg">
+                        <img src="assets/gallery/events/media_2.jpeg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_3.bmp">
+                        <img src="assets/gallery/events/media_3.bmp" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_4.jpg">
+                        <img src="assets/gallery/events/media_4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_5.jpg" >
+                        <img src="assets/gallery/events/media_5.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_6.jpg">
+                        <img src="assets/gallery/events/media_6.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_7.JPG" >
+                        <img src="assets/gallery/events/media_7.JPG" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_8.jpg">
+                        <img src="assets/gallery/events/media_8.jpg" alt="">
+                    </a>
+                </div> 
+            </div>
+            <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_9.jpg" >
+                        <img src="assets/gallery/events/media_9.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_10.JPG">
+                        <img src="assets/gallery/events/media_10.JPG" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_11.jpg" >
+                        <img src="assets/gallery/events/media_11.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_12.jpg">
+                        <img src="assets/gallery/events/media_12.jpg" alt="">
+                    </a>
+                </div> 
+            </div>
+            <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_13.jpg" >
+                        <img src="assets/gallery/events/media_13.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_14.jpg">
+                        <img src="assets/gallery/events/media_14.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_15.jpg" >
+                        <img src="assets/gallery/events/media_15.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/events/media_16.jpg">
+                        <img src="assets/gallery/events/media_16.jpg" alt="">
+                    </a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <hr class="uk-divider-icon">
+    <!--toy_van-->
+    <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
+        <h2 class="uk-text-center">Toy Vans</h2>
+        <div class="uk-container" style="margin-top: 2%;">
+            <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/bus/media_1.JPG" >
+                        <img src="assets/gallery/bus/media_1.JPG" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/bus/media_2.JPG">
+                        <img src="assets/gallery/bus/media_2.JPG" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/bus/media_3.jpg">
+                        <img src="assets/gallery/bus/media_3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+                <div>
+                    <a class="uk-inline" href="assets/gallery/bus/media_4.jpg" >
+                        <img src="assets/gallery/bus/media_4.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="assets/gallery/bus/media_5.jpeg">
+                        <img src="assets/gallery/bus/media_5.jpeg" alt="">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <hr class="uk-divider-icon">
+   
+    <!-- Footer -->
+    <div class="uk-section uk-section-secondary">
+        <div class="uk-container">
+
+            <h1>Contact Us</h1>
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div class="uk-visible@m" style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large; text-decoration: underline">Children Toy Foundation</b><br><br>
+                        C/O Shri Devendra S. Desai – Founder/Mg.Trustee<br>
+                        C/O R.Desai & Co, Modern House, 11 Dr. V.B.Gandhi Road,Fort, Mumbai-400023.  Lane adjoining Rhythm House,Maharastra, India.<br>
+                        
+                        Tel : (091-22) 22820687<br>
+                        
+                        Fax : 091-22-22841247<br>
+                        
+                        Email : play@childrentoyfoundation.org</p>
+                </div>
+                <div style="border-right: 1px solid white;">
+                    <p style="color: white;"><b style="font-size:x-large;">Quick Links</b></p>
+                    <ul class="uk-list uk-list-disc" style="margin-top:0px ;">
+                        <li><a href="activities.html">ACTIVITIES</a></li>
+                        <li><a href="honours.html">RECOGNITION</a></li>
+                        <li>DONATE</li>
+                        <li>VOLUNTEER</li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p style="color: white;"><b style="font-size:x-large;">CONNECT WITH US</b></p>
+                    <form>
+                        <fieldset class="uk-fieldset">                    
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Emai Id">
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="2" placeholder="Message"></textarea>
+                            </div>
+                            <div class="uk-margin">
+                                <button class="uk-button uk-button-default">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="uk-section uk-section-default uk-section-xsmall">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <p style="color: gray;">© 2020 Children Toy Foundation</p>
+                </div>
+                <div>
+                    <ul class="uk-grid-small uk-flex-right" uk-grid>
+                    <!-- App -->
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: google"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: linkedin"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: whatsapp"></a></li>
+                        <li><a class="uk-icon-button" href="#" uk-icon="icon: youtube"></a></li>
+
+
+                    </ul>    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
