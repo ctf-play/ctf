@@ -129,8 +129,8 @@
     <div>
         <!--sub menu top-->
         
-        <ul class="uk-flex-center uk-padding-top" uk-sticky="offset: 80" style="background-color: white;" uk-tab >
-            <li class="uk-active uk-button-text" ><a><h3>Advisory Board</h3></a></li>
+        <ul id="tabs" class="uk-flex-center uk-padding-top" uk-sticky="offset: 80" style="background-color: white;" uk-tab="{connect:'#mytabs'}" >
+            <li class="uk-button-text" ><a><h3>Advisory Board</h3></a></li>
             <li class="uk-button-text"><a><h3>Corporate Partners</h3></a></li>
             <li class="uk-button-text"><a><h3>Trustees</h3></a></li>
             <li class="uk-button-text"><a><h3>Youth Ambassador </h3></a></li>
@@ -138,7 +138,7 @@
             
         </ul>
         <!--sub menu content-->
-        <ul class="uk-switcher uk-flex-center uk-margin uk-margin-remove-top">
+        <ul id="mytabs" class="uk-switcher uk-flex-center uk-margin uk-margin-remove-top">
             <li>
                 <div class="uk-section uk-section-default uk-section-xlarge uk-padding" style="background-image: linear-gradient(to bottom right,rgba(249, 180, 35, 1),rgba(249, 180, 35, 0.7));">
                     <div class="uk-container">
@@ -175,7 +175,6 @@
                                                 <li>Mr. Shreyansbhai Parikh – Active supporter</li>
                                                 <li>Mr. Swastik Misra – Active supporter, Project proposals, Coordination</li>
                                                 <li>Mr. & Mrs. Atul Tanna – Fund Raising Committee</li>
-                                                <li>Mr. Sandeep Baid – Supporter and Guide </li>
                                                 <li>Mrs. Asha Bhatia - Fund Raising Committee</li>
                                                 <li>Mr. Prakash Sharma - Project proposals & public relations</li>
                                                 <li>Mr. Shyam Makhija- Leading toy manufacturer & dealer</li>
@@ -564,4 +563,14 @@ Mudit Baid is a student at Dhirubai Ambani International School,
         </div>
     </div>
 </body>
+<script>
+    window.onload= function(){
+        if (window.location.hash) {
+        var btnActivated = false;
+            if(window.location.hash.split('#')[1] === 'youth_ambassador'){
+                UIkit.switcher("#mytabs").show(3);
+            }
+        }
+    }
+</script>
 </html>
